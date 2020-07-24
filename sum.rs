@@ -4,5 +4,6 @@ fn sum(a: i32, b: i32) -> i32 {
 
 fn main() {
     println!("Hello, world!");
-    println!("{}", sum(1, 2));
+    let result = sum(1, 2);
+    println!("{}", result);
 }
